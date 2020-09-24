@@ -1,0 +1,33 @@
+{
+  "name": "api-server-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisyjohnson-401-advanced-javascript/api-server-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daisyjohnson-401-advanced-javascript/api-server-todo/issues"
+  },
+  "homepage": "https://github.com/daisyjohnson-401-advanced-javascript/api-server-todo#readme",
+  "devDependencies": {
+    "mongoose": "^5.10.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongod": "^2.0.0",
+    "node": "^14.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
